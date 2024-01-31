@@ -1,0 +1,35 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="run android" type="PhoneGap" factoryName="PhoneGap/Cordova">
+    <option name="myExecutable" value="C:\Users\m\AppData\Roaming\npm\cordova.cmd" />
+    <option name="myWorkDir" value="$PROJECT_DIR$" />
+    <option name="myCommand" value="run" />
+    <option name="myPassParent" value="true" />
+    <option name="myPlatform" value="android" />
+    <option name="myExtraArgs" value="" />
+    <option name="hasTarget" value="false" />
+    <option name="target" value="" />
+    <method v="2">
+      <option name="PhonegapTask" enabled="true" />
+      <option name="GulpBeforeRunTask" enabled="true">
+        <node-interpreter>project</node-interpreter>
+        <node-options />
+        <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+        <tasks>
+          <task>uncommentCordovaJsInIndexHtml</task>
+        </tasks>
+        <arguments />
+        <envs />
+      </option>
+      <option name="GulpBeforeRunTask" enabled="true">
+        <node-interpreter>project</node-interpreter>
+        <node-options />
+        <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+        <tasks>
+          <task>_copy-src-to-www</task>
+        </tasks>
+        <arguments />
+        <envs />
+      </option>
+    </method>
+  </configuration>
+</component>
